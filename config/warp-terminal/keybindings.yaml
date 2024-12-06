@@ -1,0 +1,5 @@
+---
+"pane_group:navigate_right": ctrl-shift-pageup
+"workspace:shift_focus_left": ctrl-shift-pagedown
+"pane_group:navigate_left": ctrl-shift-pagedown
+"workspace:shift_focus_right": ctrl-shift-pageup
