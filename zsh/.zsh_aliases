@@ -3,6 +3,8 @@ alias cls='clear'
 alias ll='ls -l'
 alias la='ls -a'
 alias rr="rm -rf"
+alias rd=rmdir
+alias md='mkdir -p'
 alias install='sudo apt install'
 
 # Run apps
@@ -10,14 +12,18 @@ alias vs='code'
 alias brave='brave-browser'
 
 # Git aliases
-alias gcl='git clone'
 alias gi='git init'
 alias gs='git status'
 alias ga='git add'
 alias gaa='git add .'
 alias gc='git commit -m'
-alias gco='git checkout'
 alias gb='git branch'
+alias gco='git checkout'
+alias glg='git log --graph'
+alias glo='git log --oneline --decorate'
+alias gm='git merge'
+alias gcl='git clone'
+alias gl='git pull'
 alias gp='git push origin master'
 
 # Run Python
