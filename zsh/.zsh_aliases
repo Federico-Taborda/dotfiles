@@ -11,6 +11,9 @@ alias install='sudo apt install'
 alias vs='code'
 alias brave='brave-browser'
 
+# Javascript
+alias watch="npm run dev"
+
 # Git aliases
 alias gi='git init'
 alias gs='git status'
