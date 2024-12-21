@@ -43,3 +43,4 @@ alias ezsh='code ~/.zshrc'
 
 # System information
 alias fetch='neofetch'
+alias clock='tty-clock -cb'
