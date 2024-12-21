@@ -33,7 +33,9 @@ alias gp='git push origin master'
 alias ptest='python3 -m pytest'
 
 # Compile C
-alias gcval='gcc -Wall -Wextra -Werror -o ejecutable $1 && valgrind ./ejecutable'
+
+# No esta funcionando
+# alias gcval='gcc -Wall -Wextra -Werror -o ejecutable $1 && valgrind ./ejecutable'
 
 # Configure zsh
 alias reload='cd ~; clear; source ~/.zshrc'
