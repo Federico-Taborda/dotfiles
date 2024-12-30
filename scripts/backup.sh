@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create backup folder
+# Create backup folders
 mkdir -p $HOME/Escritorio/backup
 mkdir -p $HOME/Escritorio/backup/config
 mkdir -p $HOME/Escritorio/backup/config/xfce4/xfconf/xfce-perchannel-xml
@@ -16,6 +16,7 @@ cd ~/.config
 cp -r ulauncher $HOME/Escritorio/backup/config
 cp -r warp-terminal $HOME/Escritorio/backup/config
 cp -r neofetch $HOME/Escritorio/backup/config
+cp -r rofi $HOME/Escritorio/backup/config
 
 # Copy panel
 cp xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml $HOME/Escritorio/backup/config/xfce4/xfconf/xfce-perchannel-xml
